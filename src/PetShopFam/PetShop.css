@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Oswald", sans-serif;
+}
+
+main {
+    background-color: #F8D629;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    height: 130px;
+}
+
+.section-img {
+    display: flex;
+    justify-content: end;
+    width: 30%;
+}
+
+.nav-options {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+}
+
+.nav-options ul {
+    display: flex;
+    list-style: none;
+    gap: 60px;
+    font-size: 18px;
+}
+
+.nav-options ul li {
+    cursor: pointer;
+}
+
+.section-cart {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    width: 20%;
+    justify-content: center;
+
+}
+
+.item-cart {
+    display: flex;
+    align-items: center;
+    background-color: black;
+    border-radius: 50%;
+    height: 35px;
+    width: 35px;
+    justify-content: center;
+}
+
+.section-info-img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    width: 100%;
+}
+
+.section-info {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    width: 30%;
+}
+
+.section-info h1 {
+    font-size: 40px;
+}
+
+.section-info p {
+    font-size: 24px;
+}
+
+.btn-comprar {
+    background-color: black;
+    width: 200px;
+    height: 60px;
+    border-radius: 30px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+    cursor: pointer;
+}
+
